@@ -6,5 +6,10 @@
 
 module.exports = {
   siteName: 'Gridsome',
-  plugins: []
+  plugins: [{
+    use: '@gridsome/plugin-google-analytics',
+    options: {
+      id: 'G-FRFTJERW2P'
+    }
+  }]
 }
