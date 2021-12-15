@@ -10,9 +10,13 @@
   },
   "dependencies": {
     "core-js": "^3.9.1",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.3",
+    "sass": "^1.44.0",
+    "sass-loader": "^10.1.1",
+    "vuetify": "^2.6.1"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.12.2"
+    "@nuxtjs/vuetify": "^1.12.2",
+    "vuetify-loader": "^1.7.3"
   }
 }
