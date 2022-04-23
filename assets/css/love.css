@@ -1,9 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;600;700&family=Nunito:wght@300;400;700;800;900&family=Sacramento&display=swap");
 * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: "Nunito", sans-serif !important;
+}
+
+.line-height {
+  line-height: 10px;
+}
+
+.font-title {
+  font-family: "Libre Bodoni", serif !important;
+}
+
+.font-base {
+  font-family: "Nunito", sans-serif !important;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-base {
+  font-size: 1rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
 }
 
 /* width */
@@ -28,5 +74,13 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #f3667d;
   background-clip: content-box;
+}
+
+.navbar__height {
+  height: 100px !important;
+}
+
+.navbar__height .v-toolbar__content {
+  height: 100px !important;
 }
 /*# sourceMappingURL=love.css.map */
