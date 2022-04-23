@@ -23,8 +23,12 @@ $body-font-family: $font-base;
 	font-family: $font-base !important;
 }
 
-.line-height {
-	line-height: 10px;
+$sizes: 2px, 4px, 6px, 8px, 10px;
+
+@each $size in $sizes {
+	.line-#{$size} {
+		line-height: $size;
+	}
 }
 
 .font {

@@ -8,7 +8,23 @@
   font-family: "Nunito", sans-serif !important;
 }
 
-.line-height {
+.line-2px {
+  line-height: 2px;
+}
+
+.line-4px {
+  line-height: 4px;
+}
+
+.line-6px {
+  line-height: 6px;
+}
+
+.line-8px {
+  line-height: 8px;
+}
+
+.line-10px {
   line-height: 10px;
 }
 

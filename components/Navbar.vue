@@ -11,7 +11,7 @@
           ></v-img>
           <div class="d-flex flex-column font-base ml-3">
             <span class="font-weight-bold text-3xl">EpicDay</span>
-            <span class="text--secondary line-height"
+            <span class="text--secondary line-10px text-base"
               >#InvitationEnthusiast</span
             >
           </div>
