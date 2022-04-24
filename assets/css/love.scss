@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;600;700&family=Nunito:wght@300;400;700;800;900&family=Sacramento&display=swap");
 // @import "~vuetify/src/styles/styles.sass";
 
-$scroll: rgb(182, 100, 114);
-$scroll-hover: rgb(243, 102, 125);
 $red: #f90000;
 $blue: #2ca1c7;
 $red-dark: #c50000;
 $blue-dark: #1f738e;
 $black: #353535;
+$scroll: $blue-dark;
+$scroll-hover: $red-dark;
 
 $font-title: "Libre Bodoni", serif;
 $font-base: "Nunito", sans-serif;
@@ -20,6 +20,7 @@ $body-font-family: $font-base;
 	margin: 0;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
+	color: $black;
 	font-family: $font-base !important;
 }
 
@@ -38,7 +39,7 @@ $sizes: 2px, 4px, 6px, 8px, 10px;
 	&-base {
 		font-family: $font-base !important;
 	}
-	%-dance {
+	&-dance {
 		font-family: $font-dance !important;
 	}
 }
@@ -72,7 +73,7 @@ $sizes: 2px, 4px, 6px, 8px, 10px;
 
 /* width */
 ::-webkit-scrollbar {
-	width: 20px;
+	width: 16px;
 }
 
 /* Track */
@@ -94,11 +95,11 @@ $sizes: 2px, 4px, 6px, 8px, 10px;
 	background-clip: content-box;
 }
 
-.navbar {
-	&__height {
-		height: 100px !important;
-		.v-toolbar__content {
-			height: 100px !important;
-		}
-	}
-}
+// .navbar {
+// 	&__height {
+// 		height: 100px !important;
+// 		.v-toolbar__content {
+// 			height: 100px !important;
+// 		}
+// 	}
+// }

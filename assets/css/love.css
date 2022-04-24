@@ -5,6 +5,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   scroll-behavior: smooth;
+  color: #353535;
   font-family: "Nunito", sans-serif !important;
 }
 
@@ -34,6 +35,10 @@
 
 .font-base {
   font-family: "Nunito", sans-serif !important;
+}
+
+.font-dance {
+  font-family: "Sacramento", cursive !important;
 }
 
 .text-xs {
@@ -70,7 +75,7 @@
 
 /* width */
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 16px;
 }
 
 /* Track */
@@ -83,20 +88,12 @@
   border-radius: 100px;
   border: 5px solid transparent;
   background-clip: content-box;
-  background-color: #b66472;
+  background-color: #1f738e;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #f3667d;
+  background: #c50000;
   background-clip: content-box;
-}
-
-.navbar__height {
-  height: 100px !important;
-}
-
-.navbar__height .v-toolbar__content {
-  height: 100px !important;
 }
 /*# sourceMappingURL=love.css.map */
