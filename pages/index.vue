@@ -3,11 +3,11 @@
     <Navbar />
     <Header />
     <Feature />
-    <Product />
+    <!-- <Product />
     <HowToOrder />
     <Faq />
     <Cta />
-    <Footer />
+    <Footer /> -->
   </div>
 </template>
 

@@ -42,35 +42,35 @@
 }
 
 .text-xs {
-  font-size: 0.75rem;
+  font-size: 0.75rem !important;
 }
 
 .text-sm {
-  font-size: 0.875rem;
+  font-size: 0.875rem !important;
 }
 
 .text-base {
-  font-size: 1rem;
+  font-size: 1rem !important;
 }
 
 .text-lg {
-  font-size: 1.125rem;
+  font-size: 1.125rem !important;
 }
 
 .text-xl {
-  font-size: 1.25rem;
+  font-size: 1.25rem !important;
 }
 
 .text-2xl {
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
 }
 
 .text-3xl {
-  font-size: 1.875rem;
+  font-size: 1.875rem !important;
 }
 
 .text-4xl {
-  font-size: 2.25rem;
+  font-size: 2.25rem !important;
 }
 
 /* width */
@@ -95,5 +95,26 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #c50000;
   background-clip: content-box;
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.header .img-ab-header {
+  position: absolute;
+  width: 36rem;
+  bottom: -7rem;
+  right: 3rem;
 }
 /*# sourceMappingURL=love.css.map */

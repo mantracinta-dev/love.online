@@ -11,7 +11,7 @@
           ></v-img>
           <div class="d-flex flex-column font-base ml-3">
             <span class="font-weight-bold text-2xl">EpicDay</span>
-            <span class="text--secondary line-10px text-lg">
+            <span class="text--secondary line-10px text-base">
               #InvitationEnthusiast
             </span>
           </div>
@@ -28,14 +28,18 @@
           :key="item"
           text
           plain
-          class="text-capitalize"
+          class="text-capitalize text-base"
         >
           {{ item }}
         </v-btn>
         <!-- <v-btn text plain class="text-capitalize"> Fitur </v-btn>
         <v-btn text plain class="text-capitalize"> Harga </v-btn>
         <v-btn text plain class="text-capitalize"> Testimoni </v-btn> -->
-        <v-btn outlined rounded class="font-weight-bold text-capitalize">
+        <v-btn
+          outlined
+          rounded
+          class="font-weight-bold text-capitalize text-base"
+        >
           Pesan Sekarang
         </v-btn>
       </div>
