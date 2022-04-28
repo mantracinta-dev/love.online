@@ -4,15 +4,17 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: "%s - epic-web",
-    title: "epic-web",
+    title: process.env.TITLE,
     htmlAttrs: {
-      lang: "en",
+      lang: "id",
     },
     meta: [
       { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' },
+      { hid: 'description', name: 'description', content: process.env.DESCRIPTION },
       { name: "format-detection", content: "telephone=no" },
+      { name: 'theme-color', content: '#f90000', media: '(prefers-color-scheme: light)' },
+      { name: 'theme-color', content: '#2ca1c7', media: '(prefers-color-scheme: dark)' }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },

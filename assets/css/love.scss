@@ -16,83 +16,117 @@ $font-dance: "Sacramento", cursive;
 $body-font-family: $font-base;
 
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	scroll-behavior: smooth;
-	color: $black;
-	font-family: $font-base !important;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: $black;
+  font-family: $font-base !important;
+}
+
+.color {
+  &-text {
+    &--red {
+      color: $red !important;
+    }
+    &--blue {
+      color: $blue !important;
+    }
+    &--red-dark {
+      color: $red-dark !important;
+    }
+    &--blue-dark {
+      color: $blue-dark !important;
+    }
+  }
+  &-bg {
+    &--red {
+      background-color: $red !important;
+    }
+    &--blue {
+      background-color: $blue !important;
+    }
+    &--red-dark {
+      background-color: $red-dark !important;
+    }
+    &--blue-dark {
+      background-color: $blue-dark !important;
+    }
+  }
 }
 
 $sizes: 2px, 4px, 6px, 8px, 10px;
 
 @each $size in $sizes {
-	.line-#{$size} {
-		line-height: $size;
-	}
+  .line-#{$size} {
+    line-height: $size;
+  }
+  .space-#{$size} {
+    letter-spacing: $size;
+  }
 }
 
 .font {
-	&-title {
-		font-family: $font-title !important;
-	}
-	&-base {
-		font-family: $font-base !important;
-	}
-	&-dance {
-		font-family: $font-dance !important;
-	}
+  &-title {
+    font-family: $font-title !important;
+  }
+  &-base {
+    font-family: $font-base !important;
+  }
+  &-dance {
+    font-family: $font-dance !important;
+  }
 }
 
 .text {
-	&-xs {
-		font-size: 0.75rem !important;
-	}
-	&-sm {
-		font-size: 0.875rem !important;
-	}
-	&-base {
-		font-size: 1rem !important;
-	}
-	&-lg {
-		font-size: 1.125rem !important;
-	}
-	&-xl {
-		font-size: 1.25rem !important;
-	}
-	&-2xl {
-		font-size: 1.5rem !important;
-	}
-	&-3xl {
-		font-size: 1.875rem !important;
-	}
-	&-4xl {
-		font-size: 2.25rem !important;
-	}
+  &-xs {
+    font-size: 0.75rem !important;
+  }
+  &-sm {
+    font-size: 0.875rem !important;
+  }
+  &-base {
+    font-size: 1rem !important;
+  }
+  &-lg {
+    font-size: 1.125rem !important;
+  }
+  &-xl {
+    font-size: 1.25rem !important;
+  }
+  &-2xl {
+    font-size: 1.5rem !important;
+  }
+  &-3xl {
+    font-size: 1.875rem !important;
+  }
+  &-4xl {
+    font-size: 2.25rem !important;
+  }
 }
 
 /* width */
 ::-webkit-scrollbar {
-	width: 16px;
+  width: 16px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-	background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	border-radius: 100px;
-	border: 5px solid transparent;
-	background-clip: content-box;
-	background-color: $scroll;
+  border-radius: 100px;
+  border: 5px solid transparent;
+  background-clip: content-box;
+  background-color: $scroll;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-	background: $scroll-hover;
-	background-clip: content-box;
+  background: $scroll-hover;
+  background-clip: content-box;
 }
 
 // .navbar {
@@ -105,17 +139,17 @@ $sizes: 2px, 4px, 6px, 8px, 10px;
 // }
 
 .section {
-	min-height: 100vh;
+  min-height: 100vh;
 }
 .header {
-	display: flex;
-	align-items: center;
-	position: relative;
+  display: flex;
+  align-items: center;
+  position: relative;
 
-	.img-ab-header {
-		position: absolute;
-		width: 36rem;
-		bottom: -7rem;
-		right: 3rem;
-	}
+  .img-ab-header {
+    position: absolute;
+    width: 36rem;
+    bottom: -7rem;
+    right: 3rem;
+  }
 }

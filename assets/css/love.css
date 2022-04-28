@@ -9,24 +9,76 @@
   font-family: "Nunito", sans-serif !important;
 }
 
+.color-text--red {
+  color: #f90000 !important;
+}
+
+.color-text--blue {
+  color: #2ca1c7 !important;
+}
+
+.color-text--red-dark {
+  color: #c50000 !important;
+}
+
+.color-text--blue-dark {
+  color: #1f738e !important;
+}
+
+.color-bg--red {
+  background-color: #f90000 !important;
+}
+
+.color-bg--blue {
+  background-color: #2ca1c7 !important;
+}
+
+.color-bg--red-dark {
+  background-color: #c50000 !important;
+}
+
+.color-bg--blue-dark {
+  background-color: #1f738e !important;
+}
+
 .line-2px {
   line-height: 2px;
+}
+
+.space-2px {
+  letter-spacing: 2px;
 }
 
 .line-4px {
   line-height: 4px;
 }
 
+.space-4px {
+  letter-spacing: 4px;
+}
+
 .line-6px {
   line-height: 6px;
+}
+
+.space-6px {
+  letter-spacing: 6px;
 }
 
 .line-8px {
   line-height: 8px;
 }
 
+.space-8px {
+  letter-spacing: 8px;
+}
+
 .line-10px {
   line-height: 10px;
+}
+
+.space-10px {
+  letter-spacing: 10px;
 }
 
 .font-title {
