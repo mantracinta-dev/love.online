@@ -1,13 +1,13 @@
 <template>
   <div>
-    <v-app-bar height="100" elevate-on-scroll fixed>
+    <v-app-bar height="80" elevate-on-scroll fixed>
       <v-toolbar-title>
         <div class="d-flex align-center">
           <v-img
-            max-height="83"
-            max-width="83"
+            max-height="60"
+            max-width="60"
             :src="require('../static/logo.png')"
-            alt="logo-epic"
+            alt="logo-brand-epic"
           ></v-img>
           <div class="d-flex flex-column font-base ml-3">
             <span class="font-weight-bold text-2xl">EpicDay</span>
@@ -38,6 +38,7 @@
         <v-btn
           outlined
           rounded
+          color="red"
           class="font-weight-bold text-capitalize text-base"
         >
           Pesan Sekarang
