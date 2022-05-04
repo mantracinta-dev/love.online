@@ -1,28 +1,38 @@
 <template>
-  <v-container>
-    <v-row>
-      <v-col cols="4">
-        <span>Apa bedanya layanan kami</span>
-        <h1>T O P Fitur Terbaik Untuk Kamu</h1>
-        <p>
-          Gunakan semua fitur yang kami berikan agar undangan kamu jadi lebih
-          oke.
-        </p>
+  <div class="section section--bg">
+    <v-container>
+      <v-col cols="12" class="mt-16 pt-16">
+        <p class="font-title color-text--blue">Kenapa Memilih Kami ?</p>
+        <h1 class="font-weight-bold text-3xl">
+          Platform Undangan Online <br />
+          Mewah gak harus mahal
+        </h1>
       </v-col>
-      <v-col cols="8">
-        <v-row>
-          <v-col v-for="i in 4" :key="i">
-            <v-img
-              lazy-src="https://picsum.photos/id/11/10/6"
-              height="200"
-              width="150"
-              src="https://picsum.photos/id/11/500/300"
-            ></v-img>
-          </v-col>
-        </v-row>
-      </v-col>
-    </v-row>
-  </v-container>
+      <v-row class="my-16">
+        <v-col v-for="s in 6" :key="s" cols="4">
+          <v-card flat>
+            <div class="d-flex flex-no-wrap justify-space-between">
+              <div>
+                <v-card-text>
+                  <p class="text-xl font-weight-bold">Fitur Lengkap</p>
+                  <div class="text--secondary">
+                    Hanya dengan 49k kamu sudah mendapatkan seluruh fitur
+                    premium dari kami.
+                  </div>
+                </v-card-text>
+              </div>
+              <v-avatar class="ma-3" size="60" tile>
+                <v-img
+                  src="https://buildwithangga.com/themes/front/images/ic_konsultasi.svg"
+                  alt="icon"
+                ></v-img>
+              </v-avatar>
+            </div>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
+  </div>
 </template>
 
 <script>

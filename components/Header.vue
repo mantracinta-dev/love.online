@@ -1,5 +1,5 @@
 <template>
-  <div class="header section">
+  <div class="header set-pattern section d-flex align-center">
     <v-container>
       <v-row align="center">
         <v-col cols="6">
