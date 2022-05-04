@@ -6,6 +6,7 @@ $blue: #2ca1c7;
 $red-dark: #c50000;
 $blue-dark: #1f738e;
 $black: #353535;
+$bg: #2ca1c71a;
 $scroll: $blue-dark;
 $scroll-hover: $red-dark;
 
@@ -140,16 +141,25 @@ $sizes: 2px, 4px, 6px, 8px, 10px;
 
 .section {
   min-height: 100vh;
+  &--bg {
+    background-color: $bg;
+  }
 }
 .header {
-  display: flex;
-  align-items: center;
   position: relative;
 
   .img-ab-header {
     position: absolute;
+    height: 500px;
     width: 36rem;
-    bottom: -7rem;
+    bottom: 0;
     right: 3rem;
   }
+}
+
+.set-pattern {
+  background-image: url(../../static/bg-pattern.webp);
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: center;
 }

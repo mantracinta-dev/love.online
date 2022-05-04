@@ -3,8 +3,8 @@
     <Navbar />
     <Header />
     <Feature />
-    <!-- <Product />
-    <HowToOrder />
+    <Product />
+    <!-- <HowToOrder />
     <Faq />
     <Cta />
     <Footer /> -->
