@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;600;700&family=Nunito:wght@300;400;700;800;900&family=Sacramento&display=swap");
-// @import "~vuetify/src/styles/styles.sass";
 
 $red: #f90000;
 $blue: #2ca1c7;
@@ -163,3 +162,5 @@ $sizes: 2px, 4px, 6px, 8px, 10px;
   background-repeat: repeat;
   background-position: center;
 }
+
+@import "responsive";

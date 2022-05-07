@@ -1,0 +1,21 @@
+$phone-windth: 425px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@media (max-width: $desktop-width) {
+  .header {
+    .img-ab-header {
+      height: 400px;
+      width: 400px;
+    }
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .header {
+    .img-ab-header {
+      height: 100px;
+      width: 100%;
+    }
+  }
+}

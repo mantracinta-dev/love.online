@@ -175,4 +175,18 @@
   background-repeat: repeat;
   background-position: center;
 }
+
+@media (max-width: 1024px) {
+  .header .img-ab-header {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .img-ab-header {
+    height: 100px;
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=love.css.map */

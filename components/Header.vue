@@ -2,8 +2,8 @@
   <div class="header set-pattern section d-flex align-center">
     <v-container>
       <v-row align="center">
-        <v-col cols="6">
-          <h1 class="text-4xl font-weight-bold mb-3 color-text--blue line-6px">
+        <v-col cols="12" md="7" lg="6" class="mt-sm-0 mt-md-16 mt-16">
+          <h1 class="text-4xl font-weight-bold mb-3 color-text--blue">
             Sebarkan Kabar Bahagiamu.
           </h1>
           <p class="text-4xl font-weight-bold text--secondary mb-6">
@@ -23,7 +23,7 @@
             Yuk Buat Sekarang
           </v-btn>
         </v-col>
-        <v-col cols="6">
+        <v-col cols="12" lg="6">
           <div class="img-ab-header">
             <v-img
               :src="require('../assets/img/img-main.png')"
