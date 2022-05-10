@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-app-bar height="80" elevate-on-scroll fixed>
+    <v-app-bar height="80" elevate-on-scroll fixed class="set-pattern">
       <v-toolbar-title>
         <div class="d-flex align-center">
           <v-img
