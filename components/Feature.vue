@@ -8,16 +8,15 @@
           Mewah gak harus mahal
         </h1>
       </v-col>
-      <v-row class="my-16">
-        <v-col v-for="s in 6" :key="s" cols="4">
+      <v-row class="my-10">
+        <v-col v-for="(menu, i) in menus" :key="i.id" cols="4">
           <v-card flat>
             <div class="d-flex flex-no-wrap justify-space-between">
               <div>
                 <v-card-text>
-                  <p class="text-xl font-weight-bold">Fitur Lengkap</p>
+                  <p class="text-xl font-weight-bold">{{ menu.title }}</p>
                   <div class="text--secondary">
-                    Hanya dengan 49k kamu sudah mendapatkan seluruh fitur
-                    premium dari kami.
+                    {{ menu.desc }}
                   </div>
                 </v-card-text>
               </div>
@@ -36,7 +35,45 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "feature",
+  data() {
+    return {
+      menus: [
+        {
+          id: "1",
+          title: "Fitur Lengkap",
+          desc: " Hanya dengan 99k kamu sudah mendapatkan seluruh fitur premium dari kami.",
+        },
+        {
+          id: "2",
+          title: "Bebas Revisi",
+          desc: "Jika kamu merasa memerlukan perbaikan dengan undangan kamu, jangan ragu untuk hubungi kami.",
+        },
+        {
+          id: "3",
+          title: "Custom Desain",
+          desc: "Kami bisa bantu wujudkan ide-ide kamu untuk membuat tema/desain yang kamu inginkan",
+        },
+        {
+          id: "4",
+          title: "Gratis Konsultasi",
+          desc: "Jika kamu masih ragu dan bingung. Silahkan langsung tanyakan saja kepada kami",
+        },
+        {
+          id: "5",
+          title: "Selalu Diskon 50%",
+          desc: "Ada potongan 50% untuk kamu yang mengadakan acara pada tanggal cantik*",
+        },
+        {
+          id: "6",
+          title: "Jaminan Kepuasan",
+          desc: "Kami selalu menyelesaikan tugas penting ini dengan sungguh-sungguh dan selalu memberi kejelasan.",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped></style>
