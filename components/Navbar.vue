@@ -2,7 +2,11 @@
   <div>
     <v-app-bar height="80" elevate-on-scroll fixed class="set-pattern">
       <v-toolbar-title>
-        <div class="d-flex align-center">
+        <div
+          class="d-flex align-center"
+          @click="handleClickHome()"
+          style="cursor: pointer"
+        >
           <v-img
             max-height="60"
             max-width="60"
@@ -105,6 +109,9 @@ export default {
     window.addEventListener("resize", this.onResize, { passive: true });
   },
   methods: {
+    handleClickHome() {
+      window.open("/", "_self");
+    },
     onResize() {
       this.isScreen = window.innerWidth < 992;
     },
