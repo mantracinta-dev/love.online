@@ -28,6 +28,7 @@
 
       <div v-else>
         <v-btn
+          aria-label="nav menu"
           v-for="item in itemCors"
           :key="item"
           text
@@ -40,6 +41,7 @@
         <v-btn text plain class="text-capitalize"> Harga </v-btn>
         <v-btn text plain class="text-capitalize"> Testimoni </v-btn> -->
         <v-btn
+          aria-label="order now"
           outlined
           rounded
           color="red"

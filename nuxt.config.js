@@ -3,14 +3,14 @@ import colors from "vuetify/es5/util/colors";
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: "%s - epic-web",
+    titleTemplate: "%s - epicday-udangan-online",
     title: process.env.TITLE,
     htmlAttrs: {
       lang: "id",
     },
     meta: [
       { charset: "utf-8" },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=5' },
       { hid: 'description', name: 'description', content: process.env.DESCRIPTION },
       { name: "format-detection", content: "telephone=no" },
       { name: 'theme-color', content: '#f90000', media: '(prefers-color-scheme: light)' },

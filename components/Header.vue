@@ -16,6 +16,7 @@
             lainnya.
           </p>
           <v-btn
+            aria-label="CTA"
             rounded
             dark
             class="font-weight-bold text-capitalize text-base color-bg--red"
@@ -35,6 +36,7 @@
               <template v-slot:placeholder>
                 <v-row class="fill-height ma-0" align="center" justify="center">
                   <v-progress-circular
+                    aria-progressbar-name="progress"
                     indeterminate
                     color="grey lighten-5"
                   ></v-progress-circular>
