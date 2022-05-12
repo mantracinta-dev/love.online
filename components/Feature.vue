@@ -9,8 +9,8 @@
         </h1>
       </v-col>
       <v-row class="my-10">
-        <v-col v-for="(menu, i) in menus" :key="i.id" cols="4">
-          <v-card flat>
+        <v-col v-for="(menu, i) in menus" :key="i.id" cols="12" md="6" lg="4">
+          <v-card class="feature--card" flat>
             <div class="d-flex flex-no-wrap justify-space-between">
               <div>
                 <v-card-text>
@@ -68,7 +68,7 @@ export default {
         {
           id: "6",
           title: "Jaminan Kepuasan",
-          desc: "Kami selalu menyelesaikan tugas penting ini dengan sungguh-sungguh dan selalu memberi kejelasan.",
+          desc: "Kami selalu menyelesaikan tugas penting ini dengan sungguh-sungguh dan selalu memberikan kejelasan.",
         },
       ],
     };

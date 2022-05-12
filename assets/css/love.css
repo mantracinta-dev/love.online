@@ -183,6 +183,12 @@
   }
 }
 
+@media (min-width: 960px) and (max-width: 1261px) {
+  .feature--card {
+    min-height: 10rem;
+  }
+}
+
 @media (max-width: 768px) {
   .header .img-ab-header {
     height: 100px;

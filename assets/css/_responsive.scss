@@ -11,6 +11,12 @@ $desktop-width: 1024px;
   }
 }
 
+@media (min-width: 960px) and (max-width: 1261px) {
+  .feature--card {
+    min-height: 10rem;
+  }
+}
+
 @media (max-width: $tablet-width) {
   .header {
     .img-ab-header {
